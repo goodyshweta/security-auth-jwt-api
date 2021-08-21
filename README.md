@@ -28,5 +28,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-contact : get2gpreet@gmail.com
+contact : gurpreet.java@outlook.com
 
