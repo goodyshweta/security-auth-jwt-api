@@ -60,8 +60,7 @@ public class UserResource {
     @PostMapping(value = "/add/to/user")
     public ResponseEntity<?> addRoleToUser(@RequestBody RoleToUserForm form) {
         log.info("getUsers ");
-        userService.addRoleToUser(form.getUserName(), form.getRoleName());
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok(userService.addRoleToUser(form.getUserName(), form.getRoleName()));
     }
 
     @GetMapping(value = "/token/refresh")
